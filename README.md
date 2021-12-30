@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://edie-homepage-master-beta.vercel.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Dev-Martinien/edie-homepage-master">
       Solution
     </a>
     <span> | </span>
@@ -37,7 +37,8 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](http://edie-homepage-master-beta.vercel.app/images/edie-overview-image.png)
+![screenshot](http://edie-homepage-master-beta.vercel.app/images/edie-overview-mobile-image.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
@@ -50,9 +51,9 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [html](https://www.w3schools.com/)
+- [scss](https://sass-lang.com/)
+- [javascript](https://developer.mozilla.org/fr/docs/Web/JavaScript)
 
 ## Features
 
@@ -82,10 +83,8 @@ $ npm start
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example -->
 
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
 
-- GitHub [@your-username](https://{github.com/Dev-Martinien})
-- Twitter [@your-twitter](https://{twitter.com/@KingMartinien})
+- GitHub [@Dev-Martinien](https://{github.com/Dev-Martinien})
+- Twitter [@KingMartinien](https://{twitter.com/@KingMartinien})
