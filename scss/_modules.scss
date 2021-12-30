@@ -1,0 +1,156 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    width: 75%;
+  }
+}
+
+.container-2 {
+  width: 80%;
+  margin: auto;
+}
+
+.logo {
+  font-family: Heebo;
+  font-size: 32px;
+  line-height: 38px;
+  display: inline-block;
+}
+
+.contact-form {
+  .entry-label {
+    display: inline-block;
+    font-size: 12px;
+    color: var(--clr-gray3);
+    margin-bottom: 3px;
+  }
+
+  .entry {
+    height: 47px;
+    position: relative;
+    display: flex;
+    border-radius: 4px;
+    overflow: hidden;
+    max-width: 300px;
+
+    @media screen and (min-width: 768px) {
+      width: 450px;
+    }
+
+    input {
+      width: 100%;
+      padding-left: 15px;
+    }
+
+    button {
+      position: absolute;
+      right: 3px;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: var(--clr-primary);
+      color: var(--clr-white);
+      font-size: 14px;
+      border-radius: 4px;
+      padding: 0 20px;
+      height: 40px;
+    }
+  }
+}
+
+.realisation {
+  display: flex;
+  flex-direction: column;
+
+  &-img {
+    margin-bottom: 10px;
+    display: flex;
+    border-radius: 18px;
+    overflow: hidden;
+    height: 100%;
+
+    @media screen and (min-width: 768px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &-type {
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--clr-gray3);
+  }
+
+  &-name {
+    font-weight: 500;
+  }
+}
+
+.service {
+  padding: 20px 15px;
+  border-radius: 20px;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+
+    .service-btn {
+      color: var(--clr-white);
+    }
+
+    &:first-child .service-btn{
+      background-color: var(--clr-green);
+    }
+
+    &:nth-child(2) .service-btn{
+      background-color: var(--clr-red);
+    }
+    &:last-child .service-btn{
+      background-color: var(--clr-yellow);
+    }
+  }
+
+  &:first-child &-icon {
+    background-color: var(--clr-green);
+  }
+  &:nth-child(2) &-icon {
+    background-color: var(--clr-red);
+  }
+  &:last-child &-icon {
+    background-color: var(--clr-yellow);
+  }
+  &-icon {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    border-radius: 12px;
+
+    .material-icons {
+      color: var(--clr-white);
+    }
+  }
+  &-name {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+
+  &-description {
+    margin-bottom: 20px;
+    color: var(--clr-gray2);
+    font-weight: 400;
+  }
+
+  &-btn {
+    border-radius: 6px;
+    padding: 9px 13px;
+    font-weight: 500;
+    background-color: var(--clr-gray5);
+    color: var(--clr-gray3);
+    transition: 0.3s ease;
+  }
+}
